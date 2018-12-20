@@ -42,7 +42,6 @@ def fermat(number):
 
 if __name__ == '__main__':
     #8000009 * 97 #3000017 * 3999971 #1933 * 2347 #83*97
-    print(sys.version_info)
     if len(sys.argv) == 2:
         user_in = int(sys.argv[1])
     else:
